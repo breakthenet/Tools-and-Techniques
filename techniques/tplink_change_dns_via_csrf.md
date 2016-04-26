@@ -1,4 +1,4 @@
-In this [blog post](http://www.jakoblell.com/blog/2013/10/30/real-world-csrf-attack-hijacks-dns-server-configuration-of-tp-link-routers-2/), Jakob Lell writes about an attack on tp-link browsers his honeypots picked up on where a CSRF attack is made against TP-Link browsers.
+In this [blog post](http://www.jakoblell.com/blog/2013/10/30/real-world-csrf-attack-hijacks-dns-server-configuration-of-tp-link-routers-2/), Jakob Lell writes about an attack on tp-link browsers his honeypots picked up on where a CSRF attack is made against TP-Link routers.
 
 In the attack, the attacker uploads javascript to a site that the target visits, which when visited triggers the csrf attack.
 
