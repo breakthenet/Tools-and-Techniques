@@ -1,14 +1,14 @@
 Boot / Install Kali
 
-If on virtualbox, you will need a USB wifi stick. Once added, click the usb icon in the bottom right and add the device to your guest OS:
-http://teachthe.net/topclipbox/2016-05-03_22-29-253QLRLY.png
+If on virtualbox, you will need a USB wifi stick. Once added, click the usb icon in the bottom right and add the device to your guest OS
+![](http://teachthe.net/topclipbox/2016-05-03_22-29-253QLRLY.png)
 
 ```shell
 airmon-ng
 ```
 
-You should see something like this:
-http://teachthe.net/topclipbox/2016-05-03_22-31-4102HNZ4.png
+You should see something like this
+![](http://teachthe.net/topclipbox/2016-05-03_22-31-4102HNZ4.png)
 
 From the above, get your Interface name and use it below in place of 'wlan0'
 
@@ -24,7 +24,7 @@ airodump-ng wlan0
 
 This will show us all wifi points detected by the card, along with their encryption type. It should look like this:
 
-http://teachthe.net/topclipbox/2016-05-03_22-34-28SOJ6M4.png
+![](http://teachthe.net/topclipbox/2016-05-03_22-34-28SOJ6M4.png)
 
 Once you see your network, hit control+c to kill it.
 
