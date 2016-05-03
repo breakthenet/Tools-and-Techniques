@@ -42,7 +42,9 @@ For this command, we need to make a few modifications:
 
 3) As always, replace wlan0 with your Interface name.
 
-Now once this command is running, it will start listening to traffic on the network, gathering the info it needs to break in. You will observe over time the #Data column grows. Once it hits 20000, you're in a good spot to attempt the attack.
+Now once this command is running, it will start listening to traffic on the network, gathering the info it needs to break in. You will observe over time the #Data column grows. Once it hits 20000, you're in a good spot to attempt the attack. It should look like this:
+
+![](http://teachthe.net/topclipbox/2016-05-03_22-57-30BPM31I.png)
 
 While leaving it running, open another terminal and run this command:
 
