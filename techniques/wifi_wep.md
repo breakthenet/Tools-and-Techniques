@@ -31,7 +31,7 @@ Once you see your network, hit control+c to kill it.
 (Note, this guide only shows how to break into your own WEP protected network)
 
 ```
-airodump-ng -c 6 --bssid E8:DE:27:BD:CA:3C -w ~/ wlan0
+airodump-ng -c 6 --bssid E8:DE:27:BD:CA:3C -w ~/wep wlan0
 ```
 
 For this command, we need to make a few modifications:
@@ -49,13 +49,13 @@ Now once this command is running, it will start listening to traffic on the netw
 While leaving it running, open another terminal and run this command:
 
 ```
-aircrack-ng -b E8:DE:27:BD:CA:3C ~/01.cap
+aircrack-ng -b E8:DE:27:BD:CA:3C ~/wep-01.cap
 ```
 For this command, we need to make a few modifications:
 
 1) Replace "E8:DE:27:BD:CA:3C" with the BSSID from the previous command of the network you are targeting.
 
-2) "~/01.cap" is referring to the file storing the results of the dump from the previous command. In the previous command, we passed in a parameter "-w ~/" saying write the logs to our home directory. Go to your home directory, and find the .cap file located there, and replace the "01.cap" in this command with the name of that file.
+2) "~/wep-01.cap" is referring to the file storing the results of the dump from the previous command. In the previous command, we passed in a parameter "-w ~/wep" saying write the logs to our home directory. Go to your home directory, and find the .cap file located there, and replace the "wep-01.cap" in this command with the name of that file.
 
 If you get a "failed" message. Just hit control+c and wait for more data to be collected, then try again.
 
