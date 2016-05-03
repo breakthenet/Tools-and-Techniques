@@ -58,3 +58,7 @@ For this command, we need to make a few modifications:
 2) "~/01.cap" is referring to the file storing the results of the dump from the previous command. In the previous command, we passed in a parameter "-w ~/" saying write the logs to our home directory. Go to your home directory, and find the .cap file located there, and replace the "01.cap" in this command with the name of that file.
 
 If you get a "failed" message. Just hit control+c and wait for more data to be collected, then try again.
+
+When you achieve success, you should see something like this!
+
+![](http://teachthe.net/topclipbox/2016-05-03_22-58-17BTHZA6.png)
