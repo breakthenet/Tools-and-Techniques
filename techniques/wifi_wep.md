@@ -31,7 +31,7 @@ Once you see your network, hit control+c to kill it.
 (Note, this guide only shows how to break into your own WEP protected network)
 
 ```
-airodump-ng -c 6 --bssid E8:DE:27:BD:CA:3C -w ~/wep wlan0
+airodump-ng -c 6 --bssid E8:DE:27:BD:CA:3C -w ~/wep wlan0 --output-format cap
 ```
 
 For this command, we need to make a few modifications:

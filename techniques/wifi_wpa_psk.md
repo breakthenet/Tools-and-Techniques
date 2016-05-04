@@ -31,7 +31,7 @@ Once you see your network, hit control+c to kill it.
 (Note, this guide only shows how to break into your own WPA-PSK protected network)
 
 ```
-airodump-ng -c 1 --bssid E8:DE:27:BD:CA:3C -w ~/wpa-psk wlan0
+airodump-ng -c 7 --bssid 00:1F:B3:B3:78:A9 -w ~/wpa-pskNEW wlan0 --output-format cap
 ```
 
 For this command, we need to make a few modifications:
