@@ -27,3 +27,5 @@
 - [LANs.py](https://github.com/DanMcInerney/LANs.py)
 - [net-creds](https://github.com/DanMcInerney/net-creds)
 - [Python tools for penetration testers](https://github.com/dloss/python-pentest-tools)
+- [Spoof SMS Messages](https://www.spoofmytextmessage.com/)
+- [Spoof Phone Calls](https://www.spoofcard.com/)
