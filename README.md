@@ -3,6 +3,7 @@
 - [Local File Inclusion using logs](techniques/lfi_using_logs.md)
 - [PHP Shell to netcat](techniques/php_shell_to_netcat.md)
 - [TP-Link Router CSRF Attack](techniques/tplink_change_dns_via_csrf.md)
+- ...(Need to add the new ones here)
 
 # BTN Tools
 
